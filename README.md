@@ -12,12 +12,12 @@ Criação de um aplicativo de chat
 
 ## Tecnologias utilizadas
 - Desenvolimento e conexão com API rest com protocolos http e socket.io
-- React-native
+### React-native
 - FlatList - Elemento que listará as conversas
 - View - Elemento fundamental que engloba uma visualização
 - Scroll view - Elemento fundamental que engloba uma visualização mas que pode-se realozar scroll
 - Touchable (Opacity,WhitoutFeedback) - Elemento responsavel por
-- Bibliotecas adicionais
+### Bibliotecas adicionais
 - react-navigation
 - react-gesture-handler
 - react-animatiom
