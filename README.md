@@ -36,6 +36,6 @@ Criação de um aplicativo de chat
 - axios
 
 ### Fontes de estudo
+- O crucial e que acho que é uma das mehores formas de pegar o básico é tu assistir os vídeos da semana OmniStack 8 que tem nesse canal do telegram, não precisa ver o video que ele faz o site é importante ver a aula 2, 4 e 5, nessa semana ele faz uma aplicação completa desde a api o site e o app mobile muito bom - [Canal que tem o curso](https://t.me/omnistack "Clique e acesse agora!") 
 - A maioria das coisas que aprendi foi vendo vídeo aulas esse canal me ajudou muito, o cara se garante e passa muito conteúdo de graça - [Canal da Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg/videos "Clique e acesse agora!") 
-- O crucial é tu assistir os vídeos da semana OmniStack 8 que tem nesse canal do telegram, não precisa ver o video que ele faz o site é importante ver a aula 2, 4 e 5, nessa semana ele faz uma aplicação completa desde a api o site e o app mobile muito bom - [Canal que tem o curso](https://t.me/omnistack "Clique e acesse agora!") 
 - Uma playlist que me ajudou muito para fazer uma api - [Playlist](https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn "Clique e acesse agora!")
