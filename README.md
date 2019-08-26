@@ -13,10 +13,10 @@ Criação de um aplicativo de chat
 ## Tecnologias utilizadas
 - Desenvolimento e conexão com API rest com protocolos http e socket.io
 ### Framework React-native
-<https://facebook.github.io/react-native/docs/getting-started>
-
-
-[Tutorial Inicial](https://facebook.github.io/react-native/docs/getting-started "Clique e acesse agora!")
+- Para instalar o react-native e criar um novo projeto, siga os passos no tutorial de instalação no windows da Rocketseat(Não recomendo utilizar o emulador para testar os apps, tive problemas e meu notebook tabem é fraco, utilizo a depuração por usb depois te ensino)
+1. [Tutorial Da Rocketseat](https://docs.rocketseat.dev/ambiente-react-native/android/windows "Clique e acesse agora!")
+- Documentação com todos os componentes do react-native
+2. [Documentação](https://facebook.github.io/react-native/docs/activityindicator "Clique e acesse agora!")
 
 #### Componentes 
 - FlatList - Elemento que listará as conversas
