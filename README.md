@@ -2,6 +2,7 @@
 Criação de um aplicativo de chat
 
 ## API
+- Desenvolimento e conexão com API rest com protocolos https e socket.io
 - Organizar estrutura do banco de dados
 - Escolher se será Relacional ou Não Relacional
 - Conexão em tempo real (socket.io)
@@ -11,18 +12,16 @@ Criação de um aplicativo de chat
 - Organizar a estrutura de telas
 
 ## Tecnologias utilizadas
-- Desenvolimento e conexão com API rest com protocolos http e socket.io
 ### Framework React-native
 - Para instalar o react-native e criar um novo projeto, siga os passos no tutorial de instalação no windows da Rocketseat(Não recomendo utilizar o emulador para testar os apps, tive problemas e meu notebook tabem é fraco, utilizo a depuração por usb depois te ensino)
 1. [Tutorial Da Rocketseat](https://docs.rocketseat.dev/ambiente-react-native/android/windows "Clique e acesse agora!")
-- Documentação com todos os componentes do react-native
+- Documentação com todos os componentes e fucionalidades do react-native
 2. [Documentação](https://facebook.github.io/react-native/docs/activityindicator "Clique e acesse agora!")
-
-#### Componentes 
+##### Componentes que serão usados e que estão presentes na documentação
 - FlatList - Elemento que listará as conversas
-- View - Elemento fundamental que engloba uma visualização
-- Scroll view - Elemento fundamental que engloba uma visualização mas que pode-se realozar scroll
-- Touchable (Opacity,WhitoutFeedback) - Elemento responsavel por
+- View - Elemento fundamental como um contêiner que engloba outros componentes
+- ScrollView - Elemento fundamental como um contêiner que engloba outros componentes mas que pode-se realizar scroll
+- Touchable (Opacity,WhitoutFeedback,NativeFeedback,Highlight) - Elemento que realiza alguma resposta devido ao toque e pressão realizada pelo usuário
 ### Bibliotecas adicionais
 - react-navigation
 - react-gesture-handler
