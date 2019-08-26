@@ -3,7 +3,7 @@ Criação de um aplicativo de chat
 
 ## API
 - Organizar estrutura do banco de dados
-- Relacional ou Não Relacional
+- Escolher se será Relacional ou Não Relacional
 - Conexão em tempo real (socket.io)
 
 ## APP
@@ -12,7 +12,9 @@ Criação de um aplicativo de chat
 
 ## Tecnologias utilizadas
 - Desenvolimento e conexão com API rest com protocolos http e socket.io
-### React-native
+### Framework React-native
+<https://facebook.github.io/react-native/docs/getting-started>
+#### Componentes 
 - FlatList - Elemento que listará as conversas
 - View - Elemento fundamental que engloba uma visualização
 - Scroll view - Elemento fundamental que engloba uma visualização mas que pode-se realozar scroll
