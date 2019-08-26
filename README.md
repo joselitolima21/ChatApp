@@ -14,6 +14,10 @@ Criação de um aplicativo de chat
 - Desenvolimento e conexão com API rest com protocolos http e socket.io
 ### Framework React-native
 <https://facebook.github.io/react-native/docs/getting-started>
+
+
+[Tutorial Inicial](https://facebook.github.io/react-native/docs/getting-started "Clique e acesse agora!")
+
 #### Componentes 
 - FlatList - Elemento que listará as conversas
 - View - Elemento fundamental que engloba uma visualização
