@@ -8,7 +8,7 @@ Criação de um aplicativo de chat
 - Conexão em tempo real (socket.io)
 
 ## APP
-- Design do App e das telas (Adobe)
+- Design do App e das telas (Adobe XD)
 - Organizar a estrutura de telas
 
 ## Tecnologias utilizadas
@@ -17,7 +17,7 @@ Criação de um aplicativo de chat
 1. [Tutorial Da Rocketseat](https://docs.rocketseat.dev/ambiente-react-native/android/windows "Clique e acesse agora!")
 - Documentação com todos os componentes e fucionalidades do react-native
 2. [Documentação](https://facebook.github.io/react-native/docs/activityindicator "Clique e acesse agora!")
-#### Componentes que serão usados e que estão presentes na documentação
+### Componentes que serão usados e que estão presentes na documentação
 - [FlatList](https://facebook.github.io/react-native/docs/flatlist "Clique e acesse agora!") - Elemento que listará as conversas
 - [View](https://facebook.github.io/react-native/docs/view "Clique e acesse agora!") - Elemento fundamental como um contêiner que engloba outros componentes
 - [ScrollView](https://facebook.github.io/react-native/docs/scrollview "Clique e acesse agora!") - Elemento fundamental como um contêiner que engloba outros componentes mas que pode-se realizar scroll
@@ -26,7 +26,11 @@ Criação de um aplicativo de chat
  2. [TouchableWithoutFeedback](https://facebook.github.io/react-native/docs/touchablewithoutfeedback "Clique e acesse agora!")  
  3. [TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight "Clique e acesse agora!") 
  4. [TouchableNativeFeedback](https://facebook.github.io/react-native/docs/touchablenativefeedback "Clique e acesse agora!") 
- 
+
+### Fontes de estudo
+- A maioria das coisas que aprendi foi vendo vídeo aulas esse canal me ajudou muito, o cara se garante e passa muito conteúdo de graça - [Canal da Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg/videos "Clique e acesse agora!") 
+- Uma playlist que me ajudou muito para fazer uma api [Playlist](https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn "Clique e acesse agora!")
+- O crucial é tu assistir os vídeos da semana OmniStack 8 que tem nesse canal do telegram, não precisa ver o video que ele faz o site é importante ver a aula 2, 4 e 5, nessa semana ele faz uma aplicação completa desde a api o site e o app mobile muito bom - [Canal que tem o curso](https://t.me/omnistack "Clique e acesse agora!")  
 ### Bibliotecas adicionais
 - react-navigation
 - react-native-gesture-handler 
