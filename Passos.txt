@@ -39,3 +39,15 @@ chmod +x nome.py
 chmod +x nome.py
 4. Dar build no Workspace
 5. rodar com 'rosrun [nome-pacote] [nome-nó]'
+
+# Criando conexão com o gazebo
+1. Rodar na pasta src
+	git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
+	git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+	git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+2. catkin_make
+3. source ./devel/setup.bash
+4. export TURTLEBOT3_MODEL=burger
+5. roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+6. roslaunch turtlebot3_example turtlebot3_pointop_key.launch
+
