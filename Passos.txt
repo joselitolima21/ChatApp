@@ -1,0 +1,41 @@
+# Criar um Workspace
+2. Criar pasta geral 
+3. Criar pasta src dentro da geral
+4. Dentro de src rodar 'catkin_init_workspace' - cria o Workspace
+5. Dentro da pasta geral rodar 'catkin_make' - dar build no ws
+6. Rodar 'source devel/setup.bash'
+
+# Sistemas de arquivos do ROS
+
+Pacotes - Unidades básicas de organização de software, pode conter bibliotecas
+scripts, executáveis entre outros
+
+# Ferramentas de manipulação
+TAB duas vezes informa todas as possibilidades
+rospack - Adquire informaçoes sobre o pacote
+roscd - Muda o diretório para onde esta o pacote 
+rosls - Visualiza o diretorio do pacote
+rosnode - exibe informaçoes sobre os nós
+roscore - primeira coisa a ser executada
+
+# Criando um pacote
+1. Dentro da pasta src criar pacote rodando 
+'catkin_create_pkg [nome-do-pacote] [dependencias]' 
+2. Sempre que mudar o Workspace dar build
+'catkin_make' na pasta geral
+3. Rodar 'source devel/setup.bash'
+
+# Criando Publisher e Subscriber
+1. Criar os dois dentro da pasta scripts do pacote
+2. sempre dar um make quando criados
+chmod +x nome.py
+3. Dar build no Workspace
+4. rodar com 'rosrun [nome-pacote] [nome-nó]'
+
+# Criando Server e Client
+1. Criar o srv
+2. Criar os dois dentro da pasta scripts do pacote
+3. Sempre dar um make quando criados
+chmod +x nome.py
+4. Dar build no Workspace
+5. rodar com 'rosrun [nome-pacote] [nome-nó]'

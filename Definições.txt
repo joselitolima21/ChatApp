@@ -1,0 +1,16 @@
+Nodes - Um executável que se comunicam usando tópicos ou servicos
+um nó deve controlar o sensor, outro o robô, assim se ocorrer falhas 
+serão isoladas
+
+rosnode list - lista os nós
+rosnode info 'nó' - informaçoes do nó
+rosrun [package_name] [node_name] executa sem saber o path do nó
+
+Topics - Unidades que enviam informaçoes de um nó para outro
+por meio de publishers e subscribes
+
+Services - Outra forma que um nó pode se comunicar com outro 
+por meio de requests e responses
+
+rosservice - fornece informacoes sobre os servicos
+rosparam - Manipula os parametros do server
