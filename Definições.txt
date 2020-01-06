@@ -14,3 +14,35 @@ por meio de requests e responses
 
 rosservice - fornece informacoes sobre os servicos
 rosparam - Manipula os parametros do server
+
+Package - Para que uma package seja considerado uma package catkin 
+ela deve atender a alguns requisitos: 
+
+O package deve conter um arquivo package.xml compatível com catkin. 
+Esse arquivo package.xml fornece informações sobre o package. 
+
+O package deve conter um CMakeLists.txt que use catkin. 
+
+Cada package deve ter sua própria pasta.
+
+Um nó é um processo que executa a computação. Os nós são combinados em um gráfico e se comunicam usando 
+tópicos de streaming, serviços RPC e o Servidor de Parâmetros. Esses nós devem operar em uma escala refinada; 
+um sistema de controle de robô geralmente compreende muitos nós. Por exemplo, um nó controla um telêmetro a laser, 
+um nó controla os motores das rodas do robô, um nó realiza a localização, um nó realiza o planejamento do caminho, 
+um nó fornece uma visão gráfica do sistema e assim por diante.
+
+O uso de nós no ROS fornece vários benefícios para o sistema geral. Há tolerância a falhas adicional,
+pois as falhas são isoladas em nós individuais. A complexidade do código é reduzida em comparação com os 
+sistemas monolíticos. Os detalhes da implementação também estão bem ocultos, pois os nós expõem uma API mínima 
+ao restante do gráfico e implementações alternativas, mesmo em outras linguagens de programação, podem ser
+facilmente substituídas.
+
+Todos os nós em execução têm um nome de recurso gráfico que os identifica exclusivamente para o 
+restante do sistema. Por exemplo, / hokuyo_node pode ser o nome de um driver Hokuyo que transmite varreduras a 
+laser. Os nós também têm um tipo de nó, que simplifica o processo de referência a um nó executável no sistema 
+de arquivos. Esses tipos de nós são nomes de recursos do pacote com o nome do pacote do nó e o nome do arquivo 
+executável do nó. Para resolver um tipo de nó, o ROS procura todos os executáveis ​​no pacote com o nome especificado
+e escolhe o primeiro que encontrar. Como tal, você precisa ter cuidado e não produzir executáveis ​​diferentes com o 
+mesmo nome no mesmo pacote.
+
+Um nó ROS é gravado com o uso de uma biblioteca-cliente ROS, como roscpp ou rospy.
