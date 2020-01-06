@@ -46,3 +46,12 @@ e escolhe o primeiro que encontrar. Como tal, você precisa ter cuidado e não p
 mesmo nome no mesmo pacote.
 
 Um nó ROS é gravado com o uso de uma biblioteca-cliente ROS, como roscpp ou rospy.
+
+Os tópicos são nomeados barramentos nos quais os nós trocam mensagens. Os tópicos possuem semântica anônima de publicação/
+assinatura, que desacopla a produção de informações de seu consumo. Em geral, os nós não estão cientes de com quem estão 
+se comunicando. Em vez disso, os nós que estão interessados em dados assinam o tópico relevante; nós que geram publicação de 
+dados no tópico relevante. Pode haver vários editores e assinantes de um tópico.
+
+Os tópicos destinam-se à comunicação unidirecional de streaming. Os nós que precisam executar chamadas de procedimento remoto, 
+ou seja, receber uma resposta a uma solicitação, devem usar serviços. Há também o servidor de parâmetros para manter pequenas
+quantidades de estado.

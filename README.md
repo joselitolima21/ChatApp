@@ -26,6 +26,15 @@ Por conseguinte criar os scripts de Publisher e Subscriber
     rosrun "package" "scripts"
 > Tanto o publisher quanto o subscriber 
     
- 
+## 5. Criando conexão com o gazebo
+**Na pasta src do workspace:**
+	git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
+	git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+	git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    catkin_make
+    source ./devel/setup.bash
+    export TURTLEBOT3_MODEL=burger
+    roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+    roslaunch turtlebot3_example turtlebot3_pointop_key.launch
  
  
