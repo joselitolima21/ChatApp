@@ -28,6 +28,7 @@ Por conseguinte criar os scripts de Publisher e Subscriber
     
 ## 5. Criando conexão com o gazebo
 **Na pasta src do workspace:**
+
 	git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 	git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 	git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
